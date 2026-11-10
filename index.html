@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Agencia de envíos de combos alimenticios con productos agrícolas frescos para Cuba. Entregas en La Habana, Artemisa, Mayabeque y Matanzas.">
+  <title>Combos Cubanos | Envíos de combos alimenticios a Cuba</title>
+  <link rel="icon" href="img/logo/favicon.ico">
+  <link rel="apple-touch-icon" href="img/logo/apple-touch-icon.png">
+  <link rel="canonical" href="https://usuario.github.io/comboscubanos/">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark cc-navbar fixed-top" id="menuPrincipalNav">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">
+          <i class="bi bi-basket-fill cc-brand-icon"></i> Combos Cubanos
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destacados">Destacados</a></li>
+            <li class="nav-item"><a class="nav-link" href="#combos">Combos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+          <a href="https://chat.whatsapp.com/GHM9H9OSM0nDAymqvntUZW?s=cl&p=a&iam=2" class="btn btn-warning rounded-pill px-3 ms-lg-3 mt-2 mt-lg-0" target="_blank" rel="noopener">
+            <i class="bi bi-whatsapp me-1"></i> Ordenar
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="cc-hero text-white">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-6">
+            <span class="badge rounded-pill text-bg-light cc-hero-badge mb-3">
+              <i class="bi bi-geo-alt-fill text-success me-1"></i> Entregas en La Habana, Artemisa, Mayabeque y Matanzas
+            </span>
+            <h1 class="display-4 fw-bold mb-3">Envía <span class="cc-acento">sabor cubano</span> a los tuyos</h1>
+            <p class="lead mb-4">Agencia de envíos de combos alimenticios especializada en productos agrícolas frescos, pensada para la comunidad cubana en Estados Unidos.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#combos" class="btn btn-warning btn-lg rounded-pill px-4 fw-semibold">
+                <i class="bi bi-basket-fill me-2"></i>Ver combos
+              </a>
+              <a href="https://chat.whatsapp.com/GHM9H9OSM0nDAymqvntUZW?s=cl&p=a&iam=2" class="btn btn-outline-light btn-lg rounded-pill px-4" target="_blank" rel="noopener">
+                <i class="bi bi-whatsapp me-2"></i>WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="cc-hero-imagen position-relative">
+              <img src="img/hero/combo-4.jpg" class="img-fluid rounded-4 shadow-lg" alt="Combo de alimentos cubanos con productos agrícolas frescos">
+              <div class="cc-tarjeta-flotante card border-0 shadow rounded-4">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <i class="bi bi-truck fs-2 text-success"></i>
+                  <div>
+                    <strong class="d-block">Entrega a domicilio</strong>
+                    <small class="text-secondary">Cobertura en 4 provincias de Cuba</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="destacados" class="py-5">
+      <div class="container py-lg-4">
+        <div class="text-center mb-5">
+          <span class="cc-etiqueta">Los favoritos</span>
+          <h2 class="display-6 fw-bold">Combos destacados</h2>
+          <p class="lead text-secondary mb-0">Los combos más pedidos por nuestra comunidad</p>
+        </div>
+        <div id="carouselDestacados" class="carousel slide carousel-fade cc-carrusel overflow-hidden shadow-lg" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselDestacados" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Combo Criollo"></button>
+            <button type="button" data-bs-target="#carouselDestacados" data-bs-slide-to="1" aria-label="Combo Familiar"></button>
+            <button type="button" data-bs-target="#carouselDestacados" data-bs-slide-to="2" aria-label="Combo Lechón Asado"></button>
+            <button type="button" data-bs-target="#carouselDestacados" data-bs-slide-to="3" aria-label="Combo Desayuno Cubano"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="img/combos/combo-1-agro.jpg" class="d-block w-100" alt="Combo Criollo: ropa vieja, arroz blanco, frijoles negros y plátano maduro">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Combo Agricola 1</h3>
+                
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="img/combos/combo-2-agro.jpg" class="d-block w-100" alt="Combo Familiar: picadillo a la habanera, congrí, yuca con mojo y ensalada">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Combo Agricola 2</h3>
+                
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="img/combos/combo-3-agro.jpg" class="d-block w-100" alt="Combo Lechón Asado: lechón asado, arroz moros, tostones y ensalada criolla">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Combo Agricola 3</h3>
+               
+              </div>
+            </div>
+           
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestacados" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselDestacados" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="combos" class="py-5 cc-fondo-suave">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="cc-etiqueta">Nuestro catálogo</span>
+          <h2 class="display-6 fw-bold">Lo que enviamos a tu familia</h2>
+          <p class="lead text-secondary mb-0">Elige entre productos sueltos o combos completos, y ordena por WhatsApp</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-md-6">
+            <a href="productos.html" class="card cc-card h-100 text-decoration-none reveal">
+              <img src="img/combos/productos.jpg" class="card-img-top" alt="Productos agrícolas frescos para enviar a Cuba" loading="lazy">
+              <div class="card-body text-center p-4">
+                <h3 class="h4 fw-bold text-success">Nuestros productos</h3>
+                <p class="text-secondary mb-0">Productos agrícolas frescos seleccionados uno a uno: arroz, frijoles, café, viandas y más.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0 text-center pb-4">
+                <span class="btn btn-success rounded-pill px-4">Ver productos <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="combos.html" class="card cc-card h-100 text-decoration-none reveal">
+              <img src="img/combos/combos.jpg" class="card-img-top" alt="Combos alimenticios cubanos completos para enviar a Cuba" loading="lazy">
+              <div class="card-body text-center p-4">
+                <h3 class="h4 fw-bold text-success">Nuestros combos</h3>
+                <p class="text-secondary mb-0">Combos alimenticios completos pensados para cada familia, con entrega en 4 provincias.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0 text-center pb-4">
+                <span class="btn btn-success rounded-pill px-4">Ver combos <i class="bi bi-arrow-right ms-1"></i></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="py-5">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-12 col-lg-6 reveal">
+            <span class="cc-etiqueta">Sobre nosotros</span>
+            <h2 class="display-6 fw-bold mb-4">Una agencia nueva, con raíces cubanas</h2>
+            <p class="lead mb-4">Somos una nueva agencia de envíos de combos alimenticios especializada en productos agrícolas, las entregas se realizan en menos de 24 horas, 
+              hacemos entregas en La Habana, Artemisa, Mayabeque y Matanzas.</p>
+            <ul class="list-unstyled mb-0">
+              <li class="d-flex gap-3 mb-3">
+                <i class="bi bi-basket2-fill fs-4 text-success"></i>
+                <div>
+                  <strong class="d-block">Productos agrícolas frescos</strong>
+                  <span class="text-secondary">Seleccionamos cada producto con cuidado, desde el origen hasta tu familia</span>
+                </div>
+              </li>
+              <li class="d-flex gap-3 mb-3">
+                <i class="bi bi-truck fs-4 text-success"></i>
+                <div>
+                  <strong class="d-block">Cobertura garantizada</strong>
+                  <span class="text-secondary">Entregas en La Habana, Artemisa, Mayabeque y Matanzas</span>
+                </div>
+              </li>
+              <li class="d-flex gap-3">
+                <i class="bi bi-whatsapp fs-4 text-success"></i>
+                <div>
+                  <strong class="d-block">Pedidos fáciles por WhatsApp</strong>
+                  <span class="text-secondary">Atención directa y personalizada con cada cliente</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="cc-zona text-center p-4 h-100 reveal">
+                  <i class="bi bi-geo-alt-fill fs-3 text-success"></i>
+                  <strong class="d-block mt-2">La Habana</strong>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="cc-zona text-center p-4 h-100 reveal">
+                  <i class="bi bi-geo-alt-fill fs-3 text-success"></i>
+                  <strong class="d-block mt-2">Artemisa</strong>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="cc-zona text-center p-4 h-100 reveal">
+                  <i class="bi bi-geo-alt-fill fs-3 text-success"></i>
+                  <strong class="d-block mt-2">Mayabeque</strong>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="cc-zona text-center p-4 h-100 reveal">
+                  <i class="bi bi-geo-alt-fill fs-3 text-success"></i>
+                  <strong class="d-block mt-2">Matanzas</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="py-5 cc-fondo-suave">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="cc-etiqueta">Testimonios</span>
+          <h2 class="display-6 fw-bold">Lo que dice nuestra comunidad</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <figure class="card cc-testimonio h-100 border-0 rounded-4 p-4 m-0 reveal">
+              <div class="text-warning mb-2" aria-label="Calificación: 5 de 5 estrellas">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <blockquote class="blockquote mb-4">
+                <p class="text-secondary">"Mi familia en La Habana recibió el combo en perfecto estado y con los productos fresquitos. Totalmente recomendado."</p>
+              </blockquote>
+              <figcaption class="d-flex align-items-center gap-3 mt-auto">
+                <span class="cc-avatar rounded-circle d-flex align-items-center justify-content-center fw-bold">M</span>
+                <div>
+                  <strong class="d-block">María Fernández</strong>
+                  <small class="text-secondary">Miami, FL</small>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-4">
+            <figure class="card cc-testimonio h-100 border-0 rounded-4 p-4 m-0 reveal">
+              <div class="text-warning mb-2" aria-label="Calificación: 5 de 5 estrellas">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <blockquote class="blockquote mb-4">
+                <p class="text-secondary">"Pedir fue facilísimo por WhatsApp y mi mamá en Matanzas recibió todo en tiempo récord. Seguiremos enviando cada mes."</p>
+              </blockquote>
+              <figcaption class="d-flex align-items-center gap-3 mt-auto">
+                <span class="cc-avatar rounded-circle d-flex align-items-center justify-content-center fw-bold">C</span>
+                <div>
+                  <strong class="d-block">Carlos Pérez</strong>
+                  <small class="text-secondary">Tampa, FL</small>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-4">
+            <figure class="card cc-testimonio h-100 border-0 rounded-4 p-4 m-0 reveal">
+              <div class="text-warning mb-2" aria-label="Calificación: 5 de 5 estrellas">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <blockquote class="blockquote mb-4">
+                <p class="text-secondary">"La calidad de los productos agrícolas es excelente. Por fin una agencia confiable para mandarle comida a mi gente en Artemisa."</p>
+              </blockquote>
+              <figcaption class="d-flex align-items-center gap-3 mt-auto">
+                <span class="cc-avatar rounded-circle d-flex align-items-center justify-content-center fw-bold">Y</span>
+                <div>
+                  <strong class="d-block">Yanet Rodríguez</strong>
+                  <small class="text-secondary">Union City, NJ</small>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="cc-etiqueta">Contacto</span>
+          <h2 class="display-6 fw-bold">Estamos listos para tu pedido</h2>
+        </div>
+        <div class="row g-4 align-items-center">
+          <div class="col-12 col-lg-7 reveal">
+            <div class="cc-whatsapp card border-0 rounded-4 shadow-lg p-4 p-lg-5 text-white">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="bi bi-whatsapp fs-1"></i>
+                <h3 class="h4 mb-0">Únete a nuestro grupo de WhatsApp</h3>
+              </div>
+              <p class="mb-4">Coordina tu pedido con los administradores del grupo, entérate de los combos disponibles cada semana y resuelve tus dudas directamente con nosotros.</p>
+              <a href="https://chat.whatsapp.com/GHM9H9OSM0nDAymqvntUZW?s=cl&p=a&iam=2" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold align-self-start" target="_blank" rel="noopener">
+                <i class="bi bi-whatsapp text-success me-2"></i>Entrar al grupo
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 reveal">
+            <ul class="list-unstyled cc-info-contacto mb-0">
+              <li class="d-flex gap-3">
+                <i class="bi bi-geo-alt-fill fs-4"></i>
+                <div>
+                  <strong class="d-block">Zonas de entrega</strong>
+                  <span class="text-secondary">La Habana, Artemisa, Mayabeque y Matanzas</span>
+                </div>
+              </li>
+              <li class="d-flex gap-3">
+                <i class="bi bi-clock-fill fs-4"></i>
+                <div>
+                  <strong class="d-block">Horario de atención</strong>
+                  <span class="text-secondary">Lunes a sábado, de 9:00 am a 6:00 pm</span>
+                </div>
+              </li>
+              <li class="d-flex gap-3">
+                <i class="bi bi-lightning-charge-fill fs-4"></i>
+                <div>
+                  <strong class="d-block">Respuesta rápida</strong>
+                  <span class="text-secondary">Te contestamos por WhatsApp en pocos minutos</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="cc-footer text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <a class="h5 fw-bold text-white text-decoration-none d-inline-block mb-3" href="#inicio">
+            <i class="bi bi-basket-fill cc-brand-icon"></i> Combos Cubanos
+          </a>
+          <p class="text-secondary mb-3">Agencia de envíos de combos alimenticios con productos agrícolas para tu familia en Cuba.</p>
+          <div class="d-flex gap-3 fs-4">
+            <a href="#" class="text-white" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://chat.whatsapp.com/GHM9H9OSM0nDAymqvntUZW?s=cl&p=a&iam=2" class="text-white" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1">
+          <h3 class="h6 text-uppercase fw-bold">Enlaces</h3>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="text-decoration-none" href="#inicio">Inicio</a></li>
+            <li class="mb-2"><a class="text-decoration-none" href="#destacados">Destacados</a></li>
+            <li class="mb-2"><a class="text-decoration-none" href="#combos">Combos</a></li>
+            <li class="mb-2"><a class="text-decoration-none" href="#nosotros">Sobre nosotros</a></li>
+            <li class="mb-2"><a class="text-decoration-none" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h3 class="h6 text-uppercase fw-bold">Cobertura</h3>
+          <ul class="list-unstyled">
+            <li class="mb-2">La Habana</li>
+            <li class="mb-2">Artemisa</li>
+            <li class="mb-2">Mayabeque</li>
+            <li class="mb-2">Matanzas</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3 class="h6 text-uppercase fw-bold">Contacto</h3>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="text-decoration-none" href="https://chat.whatsapp.com/GHM9H9OSM0nDAymqvntUZW?s=cl&p=a&iam=2" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> Grupo de WhatsApp</a></li>
+            <li class="mb-2 text-secondary"><i class="bi bi-geo-alt-fill"></i> Envíos de EE. UU. a Cuba</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-secondary my-4">
+      <div class="d-flex flex-column flex-md-row justify-content-between gap-2 small text-secondary">
+        <p class="mb-0">&copy; 2026 Combos Cubanos. Todos los derechos reservados.</p>
+        <p class="mb-0">Hecho con cariño para la comunidad cubana</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="btnSubir" class="btn btn-success rounded-circle shadow" aria-label="Volver arriba">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</body>
+</html>

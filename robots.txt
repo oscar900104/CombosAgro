@@ -1,0 +1,7 @@
+# Combos Cubanos - robots.txt
+# Antes de publicar: cambiar "usuario" por tu usuario de GitHub y "comboscubanos" por el nombre real del repositorio
+
+User-agent: *
+Allow: /
+
+Sitemap: https://usuario.github.io/comboscubanos/sitemap.xml
