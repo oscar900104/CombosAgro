@@ -159,6 +159,12 @@ body {
   object-fit: cover;
 }
 
+.cc-precio {
+  white-space: normal;
+  text-align: center;
+  line-height: 1.25;
+}
+
 .cc-zona {
   background-color: var(--cc-verde-suave);
   border: 1px solid rgba(21, 128, 61, 0.12);
